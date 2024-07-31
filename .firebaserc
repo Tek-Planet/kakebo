@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "websites-fd1cd"
+  },
+  "hosting": {
+    "site": "kakebo-sl",
+    "public": "public"
+  }
+}
