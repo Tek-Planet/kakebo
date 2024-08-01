@@ -140,8 +140,9 @@ const Contact = ({ isContact }: Props) => {
 
             <div className={rowStyle}>
               <img src={phoneblack} alt="menu" className="h-4 flex " />
-
-              <h4 className={textStyle}>{contact.phone}</h4>
+              <a href="tel:+232 76332287">
+                <h4 className={textStyle}>{contact.phone}</h4>
+              </a>
             </div>
           </div>
           {/* second portion */}
@@ -159,6 +160,13 @@ const Contact = ({ isContact }: Props) => {
             </div>
           </div>
           {/* fourth portion */}
+          <div
+            className={` flex flex-col  md:w-auto w-full  md:mr-4 mb-4 md:mb-0 gap-2`}
+          >
+            <div className={divider} />
+            <h4 className={header}>Working Hours</h4>
+            <p className={textStyle}>Mondays - Fridays (8:00am - 4:00pm)</p>
+          </div>
           <div
             className={` flex flex-col  md:w-auto w-full  md:mr-4 mb-4 md:mb-0 gap-2`}
           >

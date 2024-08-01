@@ -135,7 +135,7 @@ const SavingsPage = () => {
 
               <p className="w-[20%] text-center">PRINCIPAL (NLe)</p>
 
-              <p className="w-[20%] text-center">INTEREST (NLe)</p>
+              {/* <p className="w-[20%] text-center">INTEREST (NLe)</p> */}
 
               <p className="w-[20%] text-center">TOTAL (NLe)</p>
 
@@ -151,7 +151,7 @@ const SavingsPage = () => {
                 <p className="w-[20%] text-center">{item.period} </p>
 
                 <p className="w-[20%] text-center">{item.principal}</p>
-                <p className="w-[20%] text-center">{item.interest}</p>
+                {/* <p className="w-[20%] text-center">{item.interest}</p> */}
 
                 <p className="w-[20%] text-center">{item.total}</p>
 

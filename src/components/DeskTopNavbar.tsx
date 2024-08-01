@@ -49,7 +49,7 @@ const DeskTopNavbar = () => {
               className="h-4"
             />
           </div>
-          {contact.phone}
+          <a href="tel:+232 76332287"> {contact.phone}</a>
         </NavLink>
         {/* mail icon */}
         <NavLink
@@ -66,7 +66,7 @@ const DeskTopNavbar = () => {
               className="h-4"
             />
           </div>
-          {contact.email}
+          <a href="mailto:info@kakebofinancialservices.com">{contact.email}</a>
         </NavLink>
       </div>
     </nav>

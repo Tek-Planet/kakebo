@@ -15,19 +15,17 @@ import {
   loan,
   logo,
   meeting,
-  mobilemoney,
   money,
   moneygram,
   moneyhand,
+  orange,
   pay,
-  phone,
   rapid,
   ria,
   salary,
   sendserial,
   strategy,
   teratech,
-  unw,
   westernunion,
   whh,
 } from "../assets";
@@ -192,8 +190,8 @@ export const navLinks: Menus[] = [
         plans: [
           {
             id: "1",
-            title: "Mobile Money",
-            img: mobilemoney,
+            title: "Orange Money",
+            img: orange,
             content:
               "Seamlessly transfer money using your mobile device, providing convenience and accessibility.",
           },
@@ -331,79 +329,83 @@ export const navLinks: Menus[] = [
     subNav: [
       {
         id: "1",
-        title: "Bonthe Cooperative Credit Union",
+        title: "Bonthe Island Cooperative Credit Union",
         img: logo,
         mainImage: logo,
-        description:
-          "The Bonthe Cooperative Credit Union was formed in 2021 in the township of Bonthe Municipality as part of actions supported by SEND Sierra Leone, the Federal Ministry of Economic Cooperation and Development of Germany and Terra Tech Fördeprojekte e.V to boost access to finance within the Bonthe District for rural communities especially fishing groups",
+        description: `Bonthe Island Cooperative Credit Union is a community base cooperative society operating as a not-for-profit and non-political entity. Established on 17th July 2020 by Social Enterprise Development – SEND Sierra Leone, with fund from BMZ through WHH. The union is registered with the Department of Cooperatives under the Ministry of Trade and Industry. The core vision of the credit union is to foster a culture of saving among its members by offering avenues for savings, providing fair and competitive interest rates on loans for both provident and productive purposes, and delivering other necessary financial services to promote members' self-reliance. Decisions concerning product offerings and services are made locally to cater to the specific needs of the membership.
+           Community-based Cooperative Credit Union plays a pivotal role in SEND SL's mission to drive community socio-economic development. By facilitating savings and providing affordable loans primarily to market women engaged in entrepreneurial activities, Bonthe Island Credit union empowers its members to advance their economic standing and become self-sufficient contributors to society.`,
       },
       {
         id: "2",
         title: "Jong Cooperative Credit Union",
         img: logo,
         mainImage: logo,
-        description: "",
+        description: `Jong Cooperative Credit Union is a community base cooperative society. "not-for-profit" organization and a non-political organization that is established in Mattru Jong Town, Bonthe District, by the SEND Sierra Leone and registered since 2023 through the Department of Cooperatives under the ministry of Trade and Industry with funding support from UNDP under the human security project in Sierra Leone. With the vision to promote thrift among its Members by providing a means of Savings; provide Loans to its Members for provident or productive purposes at fair and attractive rate of interest and provide other financial services that may be required by Members for their self-reliance. Decisions are made at a local level as to the products and services they offer to their membership. 
+        Community base Cooperative Credit Union is among one of the main pillars of SEND SL in promoting the socio – economic growth of communities through savings mobilizations, and giving out of affordable loans to its members who are basically market women that do business activities in order to be able to develop themselves and to stand-up in society not as liabilities but self-sufficient and reliable persons where so ever they may find themselves.`,
       },
       {
         id: "3",
         title: "Kenema Cooperative Credit Union",
         img: logo,
         mainImage: logo,
-        description: "",
+        description: `The Kenema Cooperative Credit Union (KCCU) is a non-profit community-based organization registered with the Ministry of Trade and Industry in Sierra Leone through the Department of Cooperatives and the Corporate Affairs Commission. Its goal is to provide rural communities access to financial services and resources by mobilizing savings and credit facilities. It was established in 2020 with Social Enterprise Development (SEND SL) technical assistance, with funding support from Irish Aid, BMZ through Terra Tech. KCCU works with various groups, including stakeholders, entrepreneurs, government authorities, and partners, to develop innovative solutions that promote financial inclusion and sustainable self-reliance.
+KCCU has a common national bond and members from all regions, including Western Area Rural and Western Area Urban. It has over 1,500 registered members across the country, with a total asset value of SLL 7,000,000.
+`,
       },
       {
         id: "4",
-        title: "Kissi Tongi Cooperative Credit Union",
+        title: "Mongo Cooperative Credit Union",
         img: logo,
         mainImage: logo,
-        description: "",
+        description: `Sinkunia Cooperative Credit Union is a community base cooperative society. "not-for-profit" organization and a non-political organization that is established in Mongo community in Falabba District by the Social Enterprise Development – SEND Sierra Leone and registered since 2023 through the Department of Cooperatives under the ministry of Trade and Industry with funding support from UNDP under the human security project in Sierra Leone. With the vision to promote thrift among its Members by providing a means of Savings; provide Loans to its Members for provident or productive purposes at fair and attractive rate of interest and provide other financial services that may be required by Members for their self-reliance. Decisions are therefore made at a local level as to the products and services they offer to their membership.
+Community base Cooperative Credit Union is among one of the main pillars of SEND SL in promoting the socio – economic growth of communities through savings, and the giving out of affordable loans to its members who are basically market women that do business activities in order to be able to develop themselves and to stand-up in society not as liabilities but self-sufficient and reliable persons where so ever they may be found.
+`,
       },
       {
         id: "5",
+        title: "Sincunia Cooperative Credit Union: ",
+        img: logo,
+        mainImage: logo,
+        description: `Sinkunia Cooperative Credit Union is a community base cooperative society. "not-for-profit" organization and a non-political organization that is established in Sinkunia community in Falabba District by  SEND Sierra Leone and registered since 2023 through the Department of Cooperatives under the ministry of Trade and Industry with funding support from UNDP under the human security project in Sierra Leone. With funding support from UNDP under the human security, project in Sierra Leone. With the vision to promote thrift among its Members by providing a means of Savings; provide Loans to its Members for provident or productive purposes at fair and attractive rate of interest and provide other financial services that may be required by Members for their self-reliance. Decisions are therefore made at a local level as to the products and services they offer to their membership.
+Community base Cooperative Credit Union is among one of the main pillars of SEND SL in promoting the socio – economic growth of communities through savings, and the giving out of affordable loans to its members who are basically market women that do business activities in order to be able to develop themselves and to stand-up in society not as liabilities but self-sufficient and reliable persons where so ever they may be found.
+`,
+      },
+      {
+        id: "6",
         title: "Kono Cooperative Credit Union",
         img: logo,
         mainImage: logo,
-        description: "",
-      },
-
-      {
-        id: "6",
-        title: "Luawa Cooperative Credit Union",
-        img: logo,
-        mainImage: logo,
-        description: "",
+        description: `Kono Cooperative Credit Union is a community base cooperative society. "not-for-profit" organization and a non-political organization that is established in koindu city, Kono District by SEND Sierra Leone. And registered since 2023 through the Department of Cooperatives under the ministry of Trade and Industry with funding support from Irish Aid for women groups with the vision of promoting thrift among women groups and its Members by providing a means of Savings; provide Loans to its Members for provident or productive purposes at fair and attractive rate of interest and provide other financial services that may be required by Members for their self-reliance. Decisions are therefore made at a local level as to the products and services they offer to their membership.
+Community base Cooperative Credit Union is among one of the main pillars of SEND SL in promoting the socio – economic growth of communities through savings, and the giving out of affordable loans to its members who are basically market women that do business activities in order to be able to develop themselves and to stand-up in society not as liabilities but self-sufficient and reliable persons where so ever they may find themselves.
+`,
       },
 
       {
         id: "7",
-        title: "Mongoh Cooperative Credit Union",
+        title: "Overview of Credit Unions",
         img: logo,
         mainImage: logo,
-        description: "",
+        description:
+          "A credit union is a member-owned financial cooperative that provides a range of financial services to its members. Unlike traditional banks, which are typically for-profit institutions owned by shareholders, credit unions aim to be financially sustainable while operating as not-for-profit organizations. Profits generated by credit unions are reinvested into the organization to benefit its members, such as through lower loan rates, higher savings rates, or expanded services. Members of credit unions are both owners and customers, giving them a direct say in the management and operations of the institution.",
       },
 
       {
         id: "8",
-        title: "Peje West Cooperative Credit Union",
+        title: "Historical Context in Sierra Leone",
         img: logo,
         mainImage: logo,
-        description: "",
+        description:
+          "The credit union movement in Sierra Leone traces its roots to the cooperative movement that began in the early to mid-20th century. Credit unions, also known as savings and credit cooperatives (SACCOs), emerged as part of this tradition. The regulation and supervision of credit unions fall under the Ministry of Trade and Industry through the Department of Cooperatives. The Cooperative Societies Act of 1977 provides the legal framework for the establishment and operation of credit unions in the country.",
       },
 
       {
         id: "9",
-        title: "Sinkonia Cooperative Credit Union",
+        title: "Recent Developments and Impact",
         img: logo,
         mainImage: logo,
-        description: "",
-      },
-
-      {
-        id: "10",
-        title: "Upper Bambara Cooperative Credit Union",
-        img: logo,
-        mainImage: logo,
-        description: "",
+        description: `Since 2009, SEND Sierra Leone has established 10 credit unions, providing additional financial services to individual members and Village Savings and Loans Associations (VSLAs). This initiative has empowered thousands of women, making them more financially literate, self-reliant, and vocal in their communities. These credit unions have significantly increased income-earning opportunities, access to affordable loans, and addressed social challenges such as gender inequality and decision-making in households and communities.
+As of May 2024, the 10 credit unions supported by SEND have over 7,070 individual members and 1,366 VSLA groups, representing more than 40,000 members. These credit unions, located in Kailahun, Kenema, Kono, Bonthe, and Falaba districts, have total assets valued at SLE 59,750,000 (approximately 2.5 million USD).
+`,
       },
     ],
   },
@@ -417,7 +419,7 @@ export const navLinks: Menus[] = [
 export const contact: ContactModel = {
   email: "info@kakebofinancialservices.com",
   address: "4 Reservation Road, Kenema, Sierra Leone",
-  phone: "+232 76332287",
+  phone: ":+232 76332287",
 };
 
 export const donors: Menus[] = [
@@ -478,7 +480,7 @@ export const faq: FAQType[] = [
         contact: [
           {
             name: "Memunatu Kindeh",
-            phone: "073 948428",
+            phone: "tel:073 948428",
           },
         ],
       },
@@ -489,7 +491,7 @@ export const faq: FAQType[] = [
         contact: [
           {
             name: "Peter Swalieu Navo",
-            phone: "078 191332",
+            phone: "tel:078 191332",
           },
         ],
       },
@@ -500,7 +502,7 @@ export const faq: FAQType[] = [
         contact: [
           {
             name: "Alimatu Barrie",
-            phone: "076 587758",
+            phone: "tel:076 587758",
           },
         ],
       },
@@ -511,7 +513,7 @@ export const faq: FAQType[] = [
         contact: [
           {
             name: "Elizabeth Hallie",
-            phone: "076 516522",
+            phone: "tel:076 516522",
           },
         ],
       },
@@ -522,7 +524,7 @@ export const faq: FAQType[] = [
         contact: [
           {
             name: "Betty Simbo Kamara",
-            phone: "078 503513",
+            phone: "tel:078 503513",
           },
         ],
       },
@@ -533,7 +535,7 @@ export const faq: FAQType[] = [
         contact: [
           {
             name: "Augusta Adu",
-            phone: "076 143535",
+            phone: "tel:076 143535",
           },
         ],
       },
@@ -544,7 +546,7 @@ export const faq: FAQType[] = [
         contact: [
           {
             name: "Sarah Bangura",
-            phone: "076 739729",
+            phone: "tel:076 739729",
           },
         ],
       },
@@ -555,7 +557,7 @@ export const faq: FAQType[] = [
         contact: [
           {
             name: "Abdul E Ansumana",
-            phone: "080 753940",
+            phone: "tel:080 753940",
           },
         ],
       },
@@ -566,7 +568,7 @@ export const faq: FAQType[] = [
         contact: [
           {
             name: "Foday Kamara",
-            phone: "078 213833",
+            phone: "tel:078 213833",
           },
         ],
       },
@@ -577,7 +579,7 @@ export const faq: FAQType[] = [
         contact: [
           {
             name: "Jeneba Aruna",
-            phone: "078 781455",
+            phone: "tel:078 781455",
           },
         ],
       },

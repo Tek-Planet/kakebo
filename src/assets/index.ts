@@ -31,7 +31,6 @@ export { default as salary } from "./salary.png";
 export { default as analysis } from "./analysis.png";
 export { default as money } from "./money.png";
 export { default as pay } from "./pay.png";
-
 export { default as irishaid } from "./irishaid.svg";
 export { default as sendserial } from "./sendserial.png";
 export { default as teratech } from "./teratech.png";
@@ -60,7 +59,9 @@ export { default as grouploan } from "./grouploan.png";
 export { default as moneygram } from "./moneygram.png";
 export { default as westernunion } from "./westernunion.png";
 export { default as mobilemoney } from "./mobilemoney.jpeg";
-export { default as rapid } from "./rapid.png";
+export { default as rapid } from "./rapid.jpg";
 export { default as ria } from "./ria.png";
 export { default as strategy } from "./strategy.png";
 export { default as finmgt } from "./finmgt.jpeg";
+export { default as orange } from "./orange.png";
+

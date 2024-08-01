@@ -114,9 +114,11 @@ const CreditUnionPage = () => {
                                   {item.contact &&
                                     item?.contact.map((item) => (
                                       <div key={item.name} className="">
-                                        <p className={`${styles.textSize} `}>
-                                          {item.name} ({item.phone})
-                                        </p>
+                                        <a href={item.phone}>
+                                          <p className={`${styles.textSize} `}>
+                                            {item.name}
+                                          </p>
+                                        </a>
                                       </div>
                                     ))}
                                 </div>

@@ -39,13 +39,23 @@ const Footer = () => {
           <div className={rowStyle}>
             <img src={mail} alt="menu" className="h-4 flex " />
 
-            <h4 className={textStyle}>{contact.email}</h4>
+            <a href="mailto:info@kakebofinancialservices.com">
+              <h4 className={textStyle}>{contact.email}</h4>
+            </a>
           </div>
 
           <div className={rowStyle}>
             <img src={phone} alt="menu" className="h-4 flex " />
 
-            <h4 className={textStyle}>{contact.phone}</h4>
+            <a href="tel:+232 76332287">
+              <h4 className={textStyle}>{contact.phone}</h4>
+            </a>
+          </div>
+          <div className="ml-2">
+            <h4 className="font-poppins font-semibold text-white text-lg">
+              Working Hours
+            </h4>
+            <p className={textStyle}> Mondays - Fridays (8:00am - 4:00pm)</p>
           </div>
 
           {/* social media */}

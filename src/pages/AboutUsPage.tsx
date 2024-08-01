@@ -72,7 +72,7 @@ const AboutUsPage = () => {
               <p className="text-center w-[20%] ">NAME</p>
               <p className="text-center w-[20%] ">POSITION</p>
 
-              <p className="text-center w-[25%]  ">CONTACT</p>
+              {/* <p className="text-center w-[25%]  ">CONTACT</p> */}
             </div>
 
             {staffs.map((item, index) => {
@@ -94,7 +94,7 @@ const AboutUsPage = () => {
 
                     <p className="text-center w-[20%] ">{item.position}</p>
 
-                    <p className="text-center w-[25%]  ">{item.phone}</p>
+                    {/* <p className="text-center w-[25%]  ">{item.phone}</p> */}
                   </div>
                 );
             })}
