@@ -419,7 +419,7 @@ As of May 2024, the 10 credit unions supported by SEND have over 7,070 individua
 export const contact: ContactModel = {
   email: "info@kakebofinancialservices.com",
   address: "4 Reservation Road, Kenema, Sierra Leone",
-  phone: ":+232 76332287",
+  phone: "+232 76332287",
 };
 
 export const donors: Menus[] = [

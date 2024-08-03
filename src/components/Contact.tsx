@@ -140,7 +140,7 @@ const Contact = ({ isContact }: Props) => {
 
             <div className={rowStyle}>
               <img src={phoneblack} alt="menu" className="h-4 flex " />
-              <a href="tel:+232 76332287">
+              <a href={`tel:+${contact.phone}`}>
                 <h4 className={textStyle}>{contact.phone}</h4>
               </a>
             </div>
