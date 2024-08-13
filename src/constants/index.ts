@@ -480,7 +480,7 @@ export const faq: FAQType[] = [
         contact: [
           {
             name: "Memunatu Kindeh",
-            phone: "tel:073 948428",
+            phone: "073 948428",
           },
         ],
       },
@@ -491,7 +491,7 @@ export const faq: FAQType[] = [
         contact: [
           {
             name: "Peter Swalieu Navo",
-            phone: "tel:078 191332",
+            phone: "078 191332",
           },
         ],
       },
@@ -502,7 +502,7 @@ export const faq: FAQType[] = [
         contact: [
           {
             name: "Alimatu Barrie",
-            phone: "tel:076 587758",
+            phone: "076 587758",
           },
         ],
       },
@@ -513,7 +513,7 @@ export const faq: FAQType[] = [
         contact: [
           {
             name: "Elizabeth Hallie",
-            phone: "tel:076 516522",
+            phone: "076 516522",
           },
         ],
       },
@@ -524,7 +524,7 @@ export const faq: FAQType[] = [
         contact: [
           {
             name: "Betty Simbo Kamara",
-            phone: "tel:078 503513",
+            phone: "078 503513",
           },
         ],
       },
@@ -535,7 +535,7 @@ export const faq: FAQType[] = [
         contact: [
           {
             name: "Augusta Adu",
-            phone: "tel:076 143535",
+            phone: "076 143535",
           },
         ],
       },
@@ -546,7 +546,7 @@ export const faq: FAQType[] = [
         contact: [
           {
             name: "Sarah Bangura",
-            phone: "tel:076 739729",
+            phone: "076 739729",
           },
         ],
       },
@@ -557,7 +557,7 @@ export const faq: FAQType[] = [
         contact: [
           {
             name: "Abdul E Ansumana",
-            phone: "tel:080 753940",
+            phone: "080 753940",
           },
         ],
       },
@@ -568,7 +568,7 @@ export const faq: FAQType[] = [
         contact: [
           {
             name: "Foday Kamara",
-            phone: "tel:078 213833",
+            phone: "078 213833",
           },
         ],
       },
@@ -579,7 +579,7 @@ export const faq: FAQType[] = [
         contact: [
           {
             name: "Jeneba Aruna",
-            phone: "tel:078 781455",
+            phone: "078 781455",
           },
         ],
       },

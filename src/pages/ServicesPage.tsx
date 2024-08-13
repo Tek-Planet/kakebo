@@ -76,7 +76,7 @@ const ServicesPage = () => {
               <p className="text-center w-[33%] ">NAME</p>
               <p className="text-center w-[33%] ">POSITION</p>
 
-              <p className="text-center w-[33%]  ">CONTACT</p>
+              {/* <p className="text-center w-[33%]  ">CONTACT</p> */}
             </div>
 
             {staffs.map((staff, index) => {
@@ -92,7 +92,7 @@ const ServicesPage = () => {
 
                     <p className="text-center w-[33%] ">{staff.position}</p>
 
-                    <p className="text-center w-[33%]  ">{staff.phone}</p>
+                    {/* <p className="text-center w-[33%]  ">{staff.phone}</p> */}
                   </div>
                 );
             })}
@@ -119,10 +119,16 @@ const ServicesPage = () => {
                 <img src={phoneblack} alt="menu" className="h-4 flex " />
 
                 <h4 className={textStyle}>
-                  {faq[0]?.answer[parseInt(item.id) - 1]?.contact[0]?.name +
-                    " (" +
-                    faq[0]?.answer[parseInt(item.id) - 1]?.contact[0]?.phone +
-                    ")"}
+                  <a
+                    href={`tel:+${
+                      faq[0]?.answer[parseInt(item.id) - 1]?.contact[0]?.phone
+                    }`}
+                  >
+                    {faq[0]?.answer[parseInt(item.id) - 1]?.contact[0]?.name +
+                      " (" +
+                      faq[0]?.answer[parseInt(item.id) - 1]?.contact[0]?.phone +
+                      ")"}
+                  </a>
                 </h4>
               </div>
             </div>
