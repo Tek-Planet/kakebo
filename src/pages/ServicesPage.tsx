@@ -76,7 +76,7 @@ const ServicesPage = () => {
               <p className="text-center w-[33%] ">NAME</p>
               {/* <p className="text-center w-[33%] ">POSITION</p> */}
 
-              {/* <p className="text-center w-[33%]  ">CONTACT</p> */}
+              <p className="text-center w-[33%]  ">CONTACT</p>
             </div>
 
             {staffs.map((staff, index) => {
@@ -92,7 +92,7 @@ const ServicesPage = () => {
 
                     {/* <p className="text-center w-[33%] ">{staff.position}</p> */}
 
-                    {/* <p className="text-center w-[33%]  ">{staff.phone}</p> */}
+                    <p className="text-center w-[33%]  ">{staff.phone}</p>
                   </div>
                 );
             })}
