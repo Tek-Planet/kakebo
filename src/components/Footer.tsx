@@ -39,7 +39,7 @@ const Footer = () => {
           <div className={rowStyle}>
             <img src={mail} alt="menu" className="h-4 flex " />
 
-            <a href="mailto:info@kakebofinancialservices.com">
+            <a href={`mailto:${contact.email}`}>
               <h4 className={textStyle}>{contact.email}</h4>
             </a>
           </div>
@@ -47,7 +47,7 @@ const Footer = () => {
           <div className={rowStyle}>
             <img src={phone} alt="menu" className="h-4 flex " />
 
-            <a href="tel:+232 76332287">
+            <a href={`tel:+${contact.phone}`}>
               <h4 className={textStyle}>{contact.phone}</h4>
             </a>
           </div>

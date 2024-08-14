@@ -2,7 +2,7 @@ import styles, { layout } from "../style";
 
 import { motion } from "framer-motion";
 
-import { AboutCarousal, AboutUs, OurClients, ServiceCard } from "../components";
+import { AboutCarousal, AboutUs, ServiceCard } from "../components";
 import { hero, rocket, why } from "../assets";
 import { useLocation } from "react-router-dom";
 import { GeneralListModel } from "../types";
@@ -112,55 +112,57 @@ const SavingsPage = () => {
         </div>
       </div>
 
-      <div className={` bg-primary ${styles.paddingX} ${styles.paddingY} `}>
-        <div className=" items-center flex flex-col gap-4">
-          <div className="w-full">
-            <p
-              className={`${styles.textSize} font-semibold text-blueprimary mb-3`}
-            >
-              WHAT IS THE INTEREST ON CREDIT UNION LOANS?
-            </p>
-            <p className={` ${styles.textSize} `}>
-              Just 3% per every payment on a reducing balance method!
-            </p>
-            <p className={` ${styles.textSize} `}>
-              For example: If you take a loan of NLe 6,000 to be paid in 6
-              months, at the amount of NLe 1,000 a month, the interest and
-              repayment would be as follows:
-            </p>
-            <div
-              className={` text-[10px] sm:text-sm ${styles.textSize} font-semibold  flex w-full justify-between rounded-full shadow-lg m-1 p-2 bg-blueprimary text-white  mt-5`}
-            >
-              <p className="w-[20%] text-center">PERIOD (MONTHS) </p>
-
-              <p className="w-[20%] text-center">PRINCIPAL (NLe)</p>
-
-              {/* <p className="w-[20%] text-center">INTEREST (NLe)</p> */}
-
-              <p className="w-[20%] text-center">TOTAL (NLe)</p>
-
-              <p className="w-[20%] text-center">BALANCE (NLe)</p>
-            </div>
-
-            {interestRates.map((item, index) => (
+      {item?.title === "Loans" && (
+        <div className={` bg-primary ${styles.paddingX} ${styles.paddingY} `}>
+          <div className=" items-center flex flex-col gap-4">
+            <div className="w-full">
+              <p
+                className={`${styles.textSize} font-semibold text-blueprimary mb-3`}
+              >
+                WHAT IS THE INTEREST ON CREDIT UNION LOANS?
+              </p>
+              <p className={` ${styles.textSize} `}>
+                Just 3% per every payment on a reducing balance method!
+              </p>
+              <p className={` ${styles.textSize} `}>
+                For example: If you take a loan of NLe 6,000 to be paid in 6
+                months, at the amount of NLe 1,000 a month, the interest and
+                repayment would be as follows:
+              </p>
               <div
-                className={`text-[10px] sm:text-sm ${styles.textSize} 
+                className={` text-[10px] sm:text-sm ${styles.textSize} font-semibold  flex w-full justify-between rounded-full shadow-lg m-1 p-2 bg-blueprimary text-white  mt-5`}
+              >
+                <p className="w-[20%] text-center">PERIOD (MONTHS) </p>
+
+                <p className="w-[20%] text-center">PRINCIPAL (NLe)</p>
+
+                {/* <p className="w-[20%] text-center">INTEREST (NLe)</p> */}
+
+                <p className="w-[20%] text-center">TOTAL (NLe)</p>
+
+                <p className="w-[20%] text-center">BALANCE (NLe)</p>
+              </div>
+
+              {interestRates.map((item, index) => (
+                <div
+                  className={`text-[10px] sm:text-sm ${styles.textSize} 
                 ${index % 2 === 0 && "bg-gray-300"}
                 flex w-full justify-between p-2 rounded-full shadow-lg m-1 `}
-              >
-                <p className="w-[20%] text-center">{item.period} </p>
+                >
+                  <p className="w-[20%] text-center">{item.period} </p>
 
-                <p className="w-[20%] text-center">{item.principal}</p>
-                {/* <p className="w-[20%] text-center">{item.interest}</p> */}
+                  <p className="w-[20%] text-center">{item.principal}</p>
+                  {/* <p className="w-[20%] text-center">{item.interest}</p> */}
 
-                <p className="w-[20%] text-center">{item.total}</p>
+                  <p className="w-[20%] text-center">{item.total}</p>
 
-                <p className="w-[20%] text-center">{item.balance}</p>
-              </div>
-            ))}
+                  <p className="w-[20%] text-center">{item.balance}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
-      </div>
+      )}
     </motion.div>
   );
 };
