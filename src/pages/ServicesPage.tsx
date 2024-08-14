@@ -74,7 +74,7 @@ const ServicesPage = () => {
               className={`flex flex-wrap  ${styles.textSize} font-semibold  w-full justify-between rounded-full shadow-lg m-1 p-2 bg-blueprimary text-white `}
             >
               <p className="text-center w-[33%] ">NAME</p>
-              <p className="text-center w-[33%] ">POSITION</p>
+              {/* <p className="text-center w-[33%] ">POSITION</p> */}
 
               <p className="text-center w-[33%]  ">CONTACT</p>
             </div>
@@ -90,7 +90,7 @@ const ServicesPage = () => {
                   >
                     <p className="text-center w-[33%] ">{staff.name}</p>
 
-                    <p className="text-center w-[33%] ">{staff.position}</p>
+                    {/* <p className="text-center w-[33%] ">{staff.position}</p> */}
 
                     <p className="text-center w-[33%]  ">{staff.phone}</p>
                   </div>

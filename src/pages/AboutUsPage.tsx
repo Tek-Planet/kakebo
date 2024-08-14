@@ -29,7 +29,7 @@ const AboutUsPage = () => {
           <AboutCarousal
             image={hero}
             title="About Us"
-            content="Our services range from drilling and blasting consumable products to providing equipment and logistics services in the mining industry. We are committed to offering industry-leading product quality, innovation and excellent customer service."
+            // content="Our services range from drilling and blasting consumable products to providing equipment and logistics services in the mining industry. We are committed to offering industry-leading product quality, innovation and excellent customer service."
           />
         </div>
       </div>
@@ -70,7 +70,7 @@ const AboutUsPage = () => {
               <p className="text-center w-[35%]">Credit Union</p>
 
               <p className="text-center w-[20%] ">NAME</p>
-              <p className="text-center w-[20%] ">POSITION</p>
+              {/* <p className="text-center w-[20%] ">POSITION</p> */}
 
               {/* <p className="text-center w-[25%]  ">CONTACT</p> */}
             </div>
@@ -92,7 +92,7 @@ const AboutUsPage = () => {
 
                     <p className="text-center w-[20%] ">{item.name}</p>
 
-                    <p className="text-center w-[20%] ">{item.position}</p>
+                    {/* <p className="text-center w-[20%] ">{item.position}</p> */}
 
                     {/* <p className="text-center w-[25%]  ">{item.phone}</p> */}
                   </div>

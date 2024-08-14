@@ -104,9 +104,9 @@ const Home = () => {
       </div>
 
       {/* Quote section  */}
-      <div className={` ${styles.paddingX}  ${styles.paddingY} bg-secondary`}>
+      {/* <div className={` ${styles.paddingX}  ${styles.paddingY} bg-secondary`}>
         <TopStories />
-      </div>
+      </div> */}
 
       {/* <div id="contactus" className={`${styles.paddingX} ${styles.paddingY} `}>
         <Contact />

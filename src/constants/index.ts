@@ -363,7 +363,7 @@ Community base Cooperative Credit Union is among one of the main pillars of SEND
       },
       {
         id: "5",
-        title: "Sincunia Cooperative Credit Union: ",
+        title: "Sinkunia Cooperative Credit Union: ",
         img: logo,
         mainImage: logo,
         description: `Sinkunia Cooperative Credit Union is a community base cooperative society. "not-for-profit" organization and a non-political organization that is established in Sinkunia community in Falabba District by  SEND Sierra Leone and registered since 2023 through the Department of Cooperatives under the ministry of Trade and Industry with funding support from UNDP under the human security project in Sierra Leone. With funding support from UNDP under the human security, project in Sierra Leone. With the vision to promote thrift among its Members by providing a means of Savings; provide Loans to its Members for provident or productive purposes at fair and attractive rate of interest and provide other financial services that may be required by Members for their self-reliance. Decisions are therefore made at a local level as to the products and services they offer to their membership.
@@ -509,7 +509,7 @@ export const faq: FAQType[] = [
 
       {
         title: "Kissi Tongi Community Co-operative Credit Union",
-        address: "Kailahun Road, Buedu Town",
+        address: "5 Seria Road Mongo Town ",
         contact: [
           {
             name: "Elizabeth Hallie",
@@ -520,11 +520,11 @@ export const faq: FAQType[] = [
 
       {
         title: "Kono Cooperative Credit Union",
-        address: "64 Bona Street, Koidu City.",
+        address: "7 Kalaba Road Sinkunia.",
         contact: [
           {
             name: "Betty Simbo Kamara",
-            phone: "tel:078 503513",
+            phone: "tel:+232 78 503513",
           },
         ],
       },
@@ -1081,27 +1081,34 @@ export const staffs: ContactModel[] = [
     email: "Luawa Cooperative Credit Union",
     name: "Festus Bockarie",
     position: "Manager",
-    unionId: "6",
+    unionId: "",
     phone: "079 661761",
   },
   {
     email: "Luawa Cooperative Credit Union",
     name: "Augusta Adu",
     position: "Account Officer",
-    unionId: "6",
+    unionId: "",
     phone: "076 143535",
   },
   {
     email: "Luawa Cooperative Credit Union",
     name: "Soadatu Vandi",
     position: "Loan Officer",
-    unionId: "6",
+    unionId: "",
     phone: "076 216525",
   },
   {
     email: "Luawa Cooperative Credit Union",
     name: "Augustine Feika",
     position: "Security Gard",
+    unionId: "",
+    phone: "073 458049",
+  },
+  {
+    email: "Luawa Cooperative Credit Union",
+    name: "Betty Simbo Kamara",
+    position: "Manager",
     unionId: "6",
     phone: "073 458049",
   },
