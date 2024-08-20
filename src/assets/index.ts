@@ -7,7 +7,7 @@ export { default as why } from "./why.png";
 
 export { default as caret } from "./caret.png";
 export { default as menu } from "./menu.svg";
-export { default as logo } from "./logo.jpeg";
+export { default as logo } from "./logo.png";
 export { default as close } from "./close.svg";
 export { default as facebook } from "./facebook.png";
 export { default as instagram } from "./instagram.png";
@@ -64,4 +64,3 @@ export { default as ria } from "./ria.png";
 export { default as strategy } from "./strategy.png";
 export { default as finmgt } from "./finmgt.jpeg";
 export { default as orange } from "./orange.png";
-
