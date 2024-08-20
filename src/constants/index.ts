@@ -354,24 +354,13 @@ KCCU has a common national bond and members from all regions, including Western 
       },
       {
         id: "4",
-        title: "Mongo Cooperative Credit Union",
+        title: "Kissi Tongi Cooperative Credit Union",
         img: logo,
         mainImage: logo,
-        description: `Sinkunia Cooperative Credit Union is a community base cooperative society. "not-for-profit" organization and a non-political organization that is established in Mongo community in Falabba District by the Social Enterprise Development – SEND Sierra Leone and registered since 2023 through the Department of Cooperatives under the ministry of Trade and Industry with funding support from UNDP under the human security project in Sierra Leone. With the vision to promote thrift among its Members by providing a means of Savings; provide Loans to its Members for provident or productive purposes at fair and attractive rate of interest and provide other financial services that may be required by Members for their self-reliance. Decisions are therefore made at a local level as to the products and services they offer to their membership.
-Community base Cooperative Credit Union is among one of the main pillars of SEND SL in promoting the socio – economic growth of communities through savings, and the giving out of affordable loans to its members who are basically market women that do business activities in order to be able to develop themselves and to stand-up in society not as liabilities but self-sufficient and reliable persons where so ever they may be found.
-`,
+        description: "",
       },
       {
         id: "5",
-        title: "Sincunia Cooperative Credit Union: ",
-        img: logo,
-        mainImage: logo,
-        description: `Sinkunia Cooperative Credit Union is a community base cooperative society. "not-for-profit" organization and a non-political organization that is established in Sinkunia community in Falabba District by  SEND Sierra Leone and registered since 2023 through the Department of Cooperatives under the ministry of Trade and Industry with funding support from UNDP under the human security project in Sierra Leone. With funding support from UNDP under the human security, project in Sierra Leone. With the vision to promote thrift among its Members by providing a means of Savings; provide Loans to its Members for provident or productive purposes at fair and attractive rate of interest and provide other financial services that may be required by Members for their self-reliance. Decisions are therefore made at a local level as to the products and services they offer to their membership.
-Community base Cooperative Credit Union is among one of the main pillars of SEND SL in promoting the socio – economic growth of communities through savings, and the giving out of affordable loans to its members who are basically market women that do business activities in order to be able to develop themselves and to stand-up in society not as liabilities but self-sufficient and reliable persons where so ever they may be found.
-`,
-      },
-      {
-        id: "6",
         title: "Kono Cooperative Credit Union",
         img: logo,
         mainImage: logo,
@@ -379,9 +368,45 @@ Community base Cooperative Credit Union is among one of the main pillars of SEND
 Community base Cooperative Credit Union is among one of the main pillars of SEND SL in promoting the socio – economic growth of communities through savings, and the giving out of affordable loans to its members who are basically market women that do business activities in order to be able to develop themselves and to stand-up in society not as liabilities but self-sufficient and reliable persons where so ever they may find themselves.
 `,
       },
-
+      {
+        id: "6",
+        title: "Luawa Cooperative Credit Union",
+        img: logo,
+        mainImage: logo,
+        description: "",
+      },
       {
         id: "7",
+        title: "Mongo Cooperative Credit Union",
+        img: logo,
+        mainImage: logo,
+        description: `Mongo Cooperative Credit Union is a community base cooperative society. "not-for-profit" organization and a non-political organization that is established in Mongo community in Falabba District by the Social Enterprise Development – SEND Sierra Leone and registered since 2023 through the Department of Cooperatives under the ministry of Trade and Industry with funding support from UNDP under the human security project in Sierra Leone. With the vision to promote thrift among its Members by providing a means of Savings; provide Loans to its Members for provident or productive purposes at fair and attractive rate of interest and provide other financial services that may be required by Members for their self-reliance. Decisions are therefore made at a local level as to the products and services they offer to their membership`,
+      },
+      {
+        id: "8",
+        title: "Peje West Cooperative Credit Union",
+        img: logo,
+        mainImage: logo,
+        description: `Mongo Cooperative Credit Union is a community base cooperative society. "not-for-profit" organization and a non-political organization that is established in Mongo community in Falabba District by the Social Enterprise Development – SEND Sierra Leone and registered since 2023 through the Department of Cooperatives under the ministry of Trade and Industry with funding support from UNDP under the human security project in Sierra Leone. With the vision to promote thrift among its Members by providing a means of Savings; provide Loans to its Members for provident or productive purposes at fair and attractive rate of interest and provide other financial services that may be required by Members for their self-reliance. Decisions are therefore made at a local level as to the products and services they offer to their membership`,
+      },
+      {
+        id: "9",
+        title: "Sinkunia Cooperative Credit Union",
+        img: logo,
+        mainImage: logo,
+        description: `Sinkunia Cooperative Credit Union is a community base cooperative society. "not-for-profit" organization and a non-political organization that is established in Sinkunia community in Falabba District by  SEND Sierra Leone and registered since 2023 through the Department of Cooperatives under the ministry of Trade and Industry with funding support from UNDP under the human security project in Sierra Leone. With funding support from UNDP under the human security, project in Sierra Leone. With the vision to promote thrift among its Members by providing a means of Savings; provide Loans to its Members for provident or productive purposes at fair and attractive rate of interest and provide other financial services that may be required by Members for their self-reliance. Decisions are therefore made at a local level as to the products and services they offer to their membership.`,
+      },
+
+      {
+        id: "10",
+        title: "Upper Bambara Cooperative Credit Union",
+        img: logo,
+        mainImage: logo,
+        description: "",
+      },
+
+      {
+        id: "11",
         title: "Overview of Credit Unions",
         img: logo,
         mainImage: logo,
@@ -390,7 +415,7 @@ Community base Cooperative Credit Union is among one of the main pillars of SEND
       },
 
       {
-        id: "8",
+        id: "12",
         title: "Historical Context in Sierra Leone",
         img: logo,
         mainImage: logo,
@@ -399,7 +424,7 @@ Community base Cooperative Credit Union is among one of the main pillars of SEND
       },
 
       {
-        id: "9",
+        id: "13",
         title: "Recent Developments and Impact",
         img: logo,
         mainImage: logo,
@@ -542,7 +567,7 @@ export const faq: FAQType[] = [
 
       {
         title: "Mongoh Cooperative Credit Union ",
-        address: "7 Kabala Road, Mongo Town.",
+        address: "5 Seria Road mongo town.",
         contact: [
           {
             name: "Sarah Bangura",
@@ -564,7 +589,7 @@ export const faq: FAQType[] = [
 
       {
         title: "Sinkonia Cooperative Credit Union",
-        address: "Feria Road, Sinkunia Town.",
+        address: "7 kalaba Road Sinkunia.",
         contact: [
           {
             name: "Foday Kamara",
@@ -1070,20 +1095,27 @@ export const staffs: ContactModel[] = [
     unionId: "5",
     phone: "078 503513, 099 202794",
   },
-  {
-    email: "Kono Cooperative Credit Union",
-    name: "Swaray A Kaingbaja",
-    position: "Loan Officer",
-    unionId: "5",
-    phone: "076 601445",
-  },
-  {
-    email: "Luawa Cooperative Credit Union",
-    name: "Festus Bockarie",
-    position: "Manager",
-    unionId: "6",
-    phone: "079 661761",
-  },
+  // {
+  //   email: "Kono Cooperative Credit Union",
+  //   name: "Betty Simbo Kamara",
+  //   position: "Manager",
+  //   unionId: "5",
+  //   phone: "078 503513, 099 202794",
+  // },
+  // {
+  //   email: "Kono Cooperative Credit Union",
+  //   name: "Swaray A Kaingbaja",
+  //   position: "Loan Officer",
+  //   unionId: "5",
+  //   phone: "076 601445",
+  // },
+  // {
+  //   email: "Luawa Cooperative Credit Union",
+  //   name: "Festus Bockarie",
+  //   position: "Manager",
+  //   unionId: "6",
+  //   phone: "079 661761",
+  // },
   {
     email: "Luawa Cooperative Credit Union",
     name: "Augusta Adu",
