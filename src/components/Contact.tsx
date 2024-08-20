@@ -10,6 +10,7 @@ import {
   locationblack,
 } from "../assets";
 import { contact } from "../constants";
+import axios from "axios";
 
 type Props = {
   isContact?: boolean;
@@ -19,31 +20,45 @@ const Contact = ({ isContact }: Props) => {
   const [email, setEmail] = useState<string>("");
   const [content, setContent] = useState<string>("");
   const [name, setName] = useState<string>("");
+  const [phoneNumber, setPhoneNumber] = useState<string>("");
+  const [loading, setLoading] = useState<boolean>(false);
 
   const onSubmit = async (e: any) => {
     e.preventDefault();
+    setLoading(true);
+    try {
+      const body: any = {
+        name,
+        email,
+        message: content,
+        phoneNumber,
+        subject: isContact ? "Contact Us" : "Become a member",
+        receiver: "info@kakebofinancialservices.com",
+      };
 
-    // const body: MessageModel = {
-    //   name,
-    //   email,
-    //   content,
-    //   createdAt: new Date().getTime(),
-    // };
+      let response: any = await axios.post(
+        `https://multipurpose-api.onrender.com/mails/contactus`,
+        body,
+        {
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
 
-    // let response: any = await dispatch(addMessage(body));
-    // if (!response.payload) {
-    //   alert.show("Unable to send your message please try again later", {
-    //     type: "error",
-    //   });
-    //   return;
-    // }
-
-    // alert.show("Message sent", {
-    //   type: "success",
-    // });
-    setContent("");
-    setEmail("");
-    setName("");
+      alert("Mail sent");
+      console.log(response, "the reposne");
+      setContent("");
+      setEmail("");
+      setName("");
+      setPhoneNumber("");
+      setLoading(false);
+    } catch (error) {
+      // console.log(error, "maill error");
+      alert("error sending your message");
+      setLoading(false);
+      throw error;
+    }
   };
 
   const textStyle =
@@ -103,8 +118,9 @@ const Contact = ({ isContact }: Props) => {
               <CustomTextInput
                 placeholder="Your Mobile"
                 inputType="text"
-                value={email}
-                handleChange={setEmail}
+                value={phoneNumber}
+                handleChange={setPhoneNumber}
+                required={false}
               />
             </div>
 
@@ -119,7 +135,8 @@ const Contact = ({ isContact }: Props) => {
             <Button
               type="submit"
               styles={"text-primary w-full p-2 bg-redprimary rounded-[10px]"}
-              text="Send"
+              disabled={loading ? true : false}
+              text={loading ? "Please wait" : "SUBMIT"}
             />
           </form>
         </div>
