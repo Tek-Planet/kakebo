@@ -46,6 +46,7 @@ export type AnswerType = {
   title?: string;
   address?: string;
   contact?: ContactModel[];
+  unionId?: string;
 };
 
 export type FAQType = {

@@ -33,6 +33,7 @@ const AboutUsPage = () => {
       {/* about section */}
       <div className={` ${styles.paddingX}  ${styles.paddingY} bg-secondary`}>
         <AboutUs
+          showMoreInfo
           title="Who we are"
           content="Formed in 2023, Kakebo Financial Services is dedicated to empowering Sierra Leoneans through innovative and accessible financial solutions. With a deep understanding of the local communities, markets, and ecosystems, we strive to meet the unique financial needs of our clients. We manage 11 credit unions across the nation, providing essential financial services and technical assistance to ensure efficient and effective operations. Our community-centric approach drives us to prioritize the needs of the people we serve, ensuring that our offerings are both impactful and accessible."
           showButton={false}
