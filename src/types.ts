@@ -23,6 +23,7 @@ export type GeneralListModel = {
 export type ContactModel = {
   email?: string;
   phone?: string;
+  phone2?: string;
   address?: string;
   name?: string;
   position?: string;
@@ -45,6 +46,7 @@ export type AnswerType = {
   title?: string;
   address?: string;
   contact?: ContactModel[];
+  unionId?: string;
 };
 
 export type FAQType = {

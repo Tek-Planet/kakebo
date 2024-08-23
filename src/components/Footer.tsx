@@ -50,6 +50,10 @@ const Footer = () => {
             <a href={`tel:+${contact.phone}`}>
               <h4 className={textStyle}>{contact.phone}</h4>
             </a>
+
+            <a href={`tel:+${contact.phone}`}>
+              <h4 className={textStyle}>{contact.phone2}</h4>
+            </a>
           </div>
           <div className="ml-2">
             <h4 className="font-poppins font-semibold text-white text-lg">

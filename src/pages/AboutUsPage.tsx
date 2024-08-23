@@ -26,17 +26,14 @@ const AboutUsPage = () => {
       {/* carousal */}
       <div className={` ${styles.flexStart}`}>
         <div className={`${styles.boxWidth} `}>
-          <AboutCarousal
-            image={hero}
-            title="About Us"
-            // content="Our services range from drilling and blasting consumable products to providing equipment and logistics services in the mining industry. We are committed to offering industry-leading product quality, innovation and excellent customer service."
-          />
+          <AboutCarousal image={hero} title="About Us" />
         </div>
       </div>
 
       {/* about section */}
       <div className={` ${styles.paddingX}  ${styles.paddingY} bg-secondary`}>
         <AboutUs
+          showMoreInfo
           title="Who we are"
           content="Formed in 2023, Kakebo Financial Services is dedicated to empowering Sierra Leoneans through innovative and accessible financial solutions. With a deep understanding of the local communities, markets, and ecosystems, we strive to meet the unique financial needs of our clients. We manage 11 credit unions across the nation, providing essential financial services and technical assistance to ensure efficient and effective operations. Our community-centric approach drives us to prioritize the needs of the people we serve, ensuring that our offerings are both impactful and accessible."
           showButton={false}
@@ -65,7 +62,7 @@ const AboutUsPage = () => {
 
           <div className="w-full">
             <div
-              className={`flex flex-wrap  ${styles.textSize} font-semibold  w-full justify-between rounded-full shadow-lg m-1 p-2 bg-blueprimary text-white `}
+              className={`flex flex-wrap  ${styles.textSize} font-semibold  w-full justify-evenly rounded-full shadow-lg m-1 p-2 bg-blueprimary text-white `}
             >
               <p className="text-center w-[35%]">Credit Union</p>
 
@@ -82,7 +79,7 @@ const AboutUsPage = () => {
                     key={index.toString()}
                     className={`flex flex-wrap ${styles.textSize}
                   ${index % 2 === 0 && "bg-gray-300"}
-                  flex w-full justify-between p-2 rounded-full shadow-lg m-1 `}
+                  flex w-full justify-evenly p-2 rounded-full shadow-lg m-1 `}
                   >
                     <p className="text-center w-[35%]">
                       {index > 0 && staffs[index - 1].email === item.email
@@ -90,7 +87,12 @@ const AboutUsPage = () => {
                         : item.email}
                     </p>
 
-                    <p className="text-center w-[20%] ">{item.name}</p>
+                    <p
+                      className=" w-[20%] text-center
+                     "
+                    >
+                      {item.name}
+                    </p>
 
                     {/* <p className="text-center w-[20%] ">{item.position}</p> */}
 
