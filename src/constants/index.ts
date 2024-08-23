@@ -18,6 +18,7 @@ import {
   money,
   moneygram,
   moneyhand,
+  naccua,
   orange,
   pay,
   rapid,
@@ -501,6 +502,11 @@ export const donors: Menus[] = [
     id: "Christian Aid",
     title: "Christian Aid",
     img: caid,
+  },
+  {
+    id: "NaCCUA",
+    title: "NaCCUA",
+    img: naccua,
   },
 ];
 

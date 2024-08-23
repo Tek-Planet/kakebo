@@ -64,3 +64,4 @@ export { default as ria } from "./ria.png";
 export { default as strategy } from "./strategy.png";
 export { default as finmgt } from "./finmgt.jpeg";
 export { default as orange } from "./orange.png";
+export { default as naccua } from "./NACCUA.jpg";
