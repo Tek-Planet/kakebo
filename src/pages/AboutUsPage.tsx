@@ -26,7 +26,11 @@ const AboutUsPage = () => {
       {/* carousal */}
       <div className={` ${styles.flexStart}`}>
         <div className={`${styles.boxWidth} `}>
-          <AboutCarousal image={hero} title="About Us" />
+          <AboutCarousal
+            image={hero}
+            title="About Us"
+            content="Our services range from drilling and blasting consumable products to providing equipment and logistics services in the mining industry. We are committed to offering industry-leading product quality, innovation and excellent customer service."
+          />
         </div>
       </div>
 
