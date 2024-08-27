@@ -13,7 +13,7 @@ function ServiceCard({ item, onClick, showButton }: Props) {
     <motion.div
       variants={hoverVariant}
       whileHover={"hover"}
-      className="flex flex-col gap-y-1 p-5 md:w-[47%] lg:w-[30%] xl:w-[23%] w-full justify-between items-center  rounded-[20px]  bg-white    m-2 md:h-[380px] shadow-lg "
+      className="flex flex-col gap-y-1 p-5 md:w-[47%] lg:w-[30%] xl:w-[23%] w-full justify-center items-center  rounded-[20px]  bg-white    m-2 md:h-[380px] shadow-lg "
     >
       <img src={item.img} alt="menu" className="h-[130px]" />
       <div className="flex flex-col justify-between gap-3">

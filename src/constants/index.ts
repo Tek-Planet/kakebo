@@ -1,11 +1,16 @@
 import {
   analysis,
+  basesurvey,
   bmz,
   businessloan,
   businesssavings,
   caid,
+  consultancyicon,
+  consultancyimage,
   cordaid,
+  endsurvey,
   eu,
+  finaudit,
   finmgt,
   grouploan,
   groupsavings,
@@ -20,11 +25,13 @@ import {
   moneyhand,
   naccua,
   orange,
+  orgcap,
   pay,
   rapid,
   ria,
   salary,
   sendserial,
+  softtraining,
   strategy,
   teratech,
   westernunion,
@@ -318,6 +325,78 @@ export const navLinks: Menus[] = [
             title: "Supportive Community",
             content:
               "Join a network of fellow entrepreneurs and business owners, fostering collaboration and support.",
+          },
+        ],
+      },
+      {
+        id: "5",
+        content:
+          "Receive expert guidance and support with Kakebo Consultancy Services today.",
+        title: "Consultancy Work",
+        subtitle: "Consultancy Work for Projects",
+        img: consultancyicon,
+        mainImage: consultancyimage,
+
+        description:
+          "At Kakebo Consultancy Services, we offer comprehensive and professional consultancy services that cater to a wide range of needs. Whether you require a baseline survey, project evaluation/end line survey, financial auditing, organizational capacity building, software development & training, or mobile app development, our services ensure you receive expert guidance and support. Partner with us today to achieve your goals efficiently and effectively.",
+        notes:
+          "Receive expert guidance and support with Kakebo Consultancy Services today to achieve your goals efficiently and effectively.",
+        plans: [
+          {
+            id: "1",
+            title: "Baseline Survey",
+            img: basesurvey,
+            content: "",
+          },
+          {
+            id: "2",
+            img: endsurvey,
+            title: "Project Evaluation / End Line Survey",
+            content: "",
+          },
+
+          {
+            id: "3",
+            img: finaudit,
+            title: "Financial Auditing",
+            content: "",
+          },
+
+          {
+            id: "4",
+            img: orgcap,
+            title: "Organizational Capacity Building",
+            content: "",
+          },
+
+          {
+            id: "5",
+            img: softtraining,
+            title: "Software Development and Training",
+            content: "",
+          },
+        ],
+
+        reason: [
+          {
+            id: "1",
+            title: "Comprehensive Expertise",
+            content:
+              "Our team of experts ensures that you receive tailored solutions that meet your specific needs.",
+          },
+
+          {
+            id: "2",
+            title: "Proven Track Record",
+            content:
+              "With a history of delivering successful projects across various sectors, we are committed to helping you achieve your goals effectively and efficiently.",
+          },
+
+          {
+            id: "3",
+            title: "Innovative Solutions",
+            content:
+              " We stay ahead of the curve by incorporating the latest technologies and methodologies in our services.",
           },
         ],
       },
