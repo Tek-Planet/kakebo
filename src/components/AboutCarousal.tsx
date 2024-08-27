@@ -5,12 +5,14 @@ import { motion } from "framer-motion";
 type Props = {
   title: string;
   content: string;
+  button?: string;
   image?: string;
+  buttonText?: string;
   onclick?: () => void;
 };
 
 const AboutCarousal = (props: Props) => {
-  const { title, content, image } = props;
+  const { title, content, image, buttonText } = props;
   return (
     <section className={`flex justify-center items-center `}>
       <motion.div
@@ -30,12 +32,21 @@ const AboutCarousal = (props: Props) => {
             <p className={`${styles.heading2} text-white text-center`}>
               {title}
             </p>
-
             <p
               className={`tex-sm md:text-lg font-poppins text-secondaryBlue text-center px-16`}
             >
               {content}
             </p>
+            {buttonText ? (
+              <button
+                className="text-primary bg-redprimary lg:max-w-1/2 w-1/2 lg:text-[18px] rounded-full px-2 py-3    transition-transform duration-300 ease-in-out
+          hover:scale-110 hover:bg-red-600"
+              >
+                {buttonText}
+              </button>
+            ) : (
+              <></>
+            )}
           </div>
         </div>
       </motion.div>

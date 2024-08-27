@@ -30,6 +30,7 @@ const SavingsPage = () => {
             image={hero}
             title={item?.title}
             content={item.content}
+            buttonText={item?.buttonText}
           />
         </div>
       </div>
@@ -40,7 +41,7 @@ const SavingsPage = () => {
           content={item.description}
           showButton={false}
           image={item.mainImage}
-          title={"Welcome to Kakebo " + item.title}
+          title={"Welcome to Kakebo " + item.subheading}
           plans={item.plans}
           planName={item.title}
         />
@@ -56,7 +57,7 @@ const SavingsPage = () => {
           <div className={`${layout.sectionInfo}  `}>
             <div className="flex bg-redprimary w-14 h-[2px] mb-5  " />
             <h1 className={` ${styles.heading2} `}>
-              Why Choose Kakebo {item.title}
+              Why Choose Kakebo {item.subheading}
             </h1>
 
             {/* reasons section */}
@@ -119,7 +120,7 @@ const SavingsPage = () => {
               <p
                 className={`${styles.textSize} font-semibold text-blueprimary mb-3`}
               >
-                WHAT IS THE INTEREST ON CREDIT UNION LOANS?
+                WHAT IS THE INTEREST ON OUR LOAN FACILITIES?
               </p>
               <p className={` ${styles.textSize} `}>
                 Just 3% per every payment on a reducing balance method!
@@ -135,12 +136,15 @@ const SavingsPage = () => {
                 <p className="w-[20%] text-center">PERIOD (MONTHS) </p>
 
                 <p className="w-[20%] text-center">PRINCIPAL (NLe)</p>
+                <p className="w-[20%] text-center">PRINCIPAL ($)</p>
 
                 {/* <p className="w-[20%] text-center">INTEREST (NLe)</p> */}
 
                 <p className="w-[20%] text-center">TOTAL (NLe)</p>
+                <p className="w-[20%] text-center">TOTAL ($)</p>
 
                 <p className="w-[20%] text-center">BALANCE (NLe)</p>
+                <p className="w-[20%] text-center">BALANCE ($)</p>
               </div>
 
               {interestRates.map((item, index) => (
@@ -152,11 +156,14 @@ const SavingsPage = () => {
                   <p className="w-[20%] text-center">{item.period} </p>
 
                   <p className="w-[20%] text-center">{item.principal}</p>
+                  <p className="w-[20%] text-center">{item.USDPrincipal}</p>
                   {/* <p className="w-[20%] text-center">{item.interest}</p> */}
 
                   <p className="w-[20%] text-center">{item.total}</p>
+                  <p className="w-[20%] text-center">{item.USDTotal}</p>
 
                   <p className="w-[20%] text-center">{item.balance}</p>
+                  <p className="w-[20%] text-center">{item.USDBalance}</p>
                 </div>
               ))}
             </div>

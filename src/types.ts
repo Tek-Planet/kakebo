@@ -9,7 +9,9 @@ export type GeneralListModel = {
   id: string;
   title?: string;
   subtitle?: string;
+  subheading?: string;
   content?: string;
+  buttonText?: string;
   img?: string;
   mainImage?: string;
   createdAt?: string;
@@ -24,6 +26,8 @@ export type ContactModel = {
   email?: string;
   phone?: string;
   phone2?: string;
+  whatsappLink?: string,
+  whatsappLink2?: string,
   address?: string;
   name?: string;
   position?: string;
@@ -58,6 +62,9 @@ export type FAQType = {
 export type InterestType = {
   period: string;
   principal: string;
+  USDBalance: string;
+  USDTotal: string;
+  USDPrincipal: string
   interest: string;
   total: string;
   balance: string;

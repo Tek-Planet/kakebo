@@ -72,3 +72,7 @@ export { default as endsurvey } from "./endsurvey.png";
 export { default as finaudit } from "./finaudit.png";
 export { default as orgcap } from "./organizationcap.jpg";
 export { default as softtraining } from "./softtraining.png";
+export { default as whatsappwhite } from "./whatsappwhite.png";
+export { default as fastfast_loan } from "./fastfast.png";
+export { default as agricultural_loan } from "./agricultural_loan.png";
+export { default as salary_loan } from "./salary_loan.png";
