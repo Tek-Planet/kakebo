@@ -76,3 +76,5 @@ export { default as whatsappwhite } from "./whatsappwhite.png";
 export { default as fastfast_loan } from "./fastfast.png";
 export { default as agricultural_loan } from "./agricultural_loan.png";
 export { default as salary_loan } from "./salary_loan.png";
+export { default as visa } from "./visa.png";
+export { default as express } from "./express.png";

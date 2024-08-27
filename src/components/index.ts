@@ -20,3 +20,5 @@ export { default as TopStories } from "./TopStories";
 export { default as TopStoriesCard } from "./TopStoriesCard";
 export { default as TopStoriesSlider } from "./TopStoriesSlider";
 export { default as Membership } from "./Membership";
+export { default as MobileTransferSlider } from "./MobileTransferSlider";
+export { default as ServiceCardSliderItem } from "./ServiceCardSliderItem";

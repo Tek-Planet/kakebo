@@ -2,11 +2,17 @@ import styles, { layout } from "../style";
 
 import { motion } from "framer-motion";
 
-import { AboutCarousal, AboutUs, ServiceCard } from "../components";
+import {
+  AboutCarousal,
+  AboutUs,
+  MobileTransferSlider,
+  ServiceCard,
+} from "../components";
 import { hero, rocket, why } from "../assets";
 import { useLocation } from "react-router-dom";
 import { GeneralListModel } from "../types";
 import { interestRates } from "../constants";
+import { Key } from "react";
 
 const SavingsPage = () => {
   const location = useLocation();
@@ -106,11 +112,15 @@ const SavingsPage = () => {
               : ""
           } Include`}
         </h2>
-        <div className={`flex flex-wrap justify-evenly`}>
-          {item.plans?.map((item) => (
-            <ServiceCard key={item.id} item={item} onClick={() => {}} />
-          ))}
-        </div>
+        {item?.title === "Mobile Transfer" ? (
+          <MobileTransferSlider items={item.plans} />
+        ) : (
+          <div className={`flex flex-wrap justify-evenly`}>
+            {item.plans?.map((item: { id: Key | null | undefined }) => (
+              <ServiceCard key={item.id} item={item} onClick={() => {}} />
+            ))}
+          </div>
+        )}
       </div>
 
       {item?.title === "Loans" && (
