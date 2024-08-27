@@ -78,7 +78,7 @@ const Home = () => {
       <div className={` ${styles.paddingX} ${styles.paddingY} `}>
         <AboutUs
           title="About Us"
-          content="Welcome to Kakebo Financial Services! We are a dedicated financial service provider committed to empowering Sierra Leoneans through sustainable financial solutions. Managing 11 credit unions across the nation, we offer a range of financial services tailored to meet the unique needs of our communities."
+          content="Welcome to Kakebo Financial Services! We are a dedicated financial service provider committed to empowering Sierra Leoneans through sustainable financial solutions. Managing 6 credit unions across the nation, we offer a range of financial services tailored to meet the unique needs of our communities."
           showButton={true}
           subContent="Our expert team provides essential technical assistance to ensure our credit unions operate efficiently and effectively, fostering financial inclusion and economic growth. At Kakebo, we believe in building a brighter financial future for Sierra Leone, one community at a time."
           onclick={handleNavigate}

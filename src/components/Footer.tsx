@@ -7,6 +7,7 @@ import {
   mail,
   phone,
   twitter,
+  whatsappwhite,
 } from "../assets";
 import { contact, navLinks } from "../constants";
 import { NavLink } from "react-router-dom";
@@ -31,13 +32,13 @@ const Footer = () => {
           <div className="flex bg-redprimary w-full h-[0.5px] my-4   " />
           {/* emaail */}
           <div className={rowStyle}>
-            <img src={location} alt="menu" className="h-4 flex mt-2" />
+            <img src={location} alt="menu" className="h-4 w-6 flex " />
 
             <h4 className={textStyle}>{contact.address}</h4>
           </div>
 
           <div className={rowStyle}>
-            <img src={mail} alt="menu" className="h-4 flex " />
+            <img src={mail} alt="menu" className="h-4 flex w-6 " />
 
             <a href={`mailto:${contact.email}`}>
               <h4 className={textStyle}>{contact.email}</h4>
@@ -45,15 +46,15 @@ const Footer = () => {
           </div>
 
           <div className={rowStyle}>
-            <img src={phone} alt="menu" className="h-4 flex " />
+            <img src={whatsappwhite} alt="menu" className="h-6 flex w-6 " />
 
-            <a href={`tel:+${contact.phone}`}>
+            <a href={`https://wa.me/${contact.whatsappLink}`}>
               <h4 className={textStyle}>{contact.phone}</h4>
             </a>
 
-            <a href={`tel:+${contact.phone}`}>
+            {/* <a href={`tel:+${contact.whatsappLink2}`}>
               <h4 className={textStyle}>{contact.phone2}</h4>
-            </a>
+            </a> */}
           </div>
           <div className="ml-2">
             <h4 className="font-poppins font-semibold text-white text-lg">

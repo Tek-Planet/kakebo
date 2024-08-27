@@ -134,11 +134,7 @@ const ServicesPage = () => {
                               staff?.contact && staff?.contact[0]?.phone
                             }`}
                           >
-                            {staff?.contact &&
-                              staff?.contact[0]?.name +
-                                " (" +
-                                staff?.contact[0]?.phone +
-                                ")"}
+                            {staff?.contact && staff?.contact[0]?.phone}
                           </a>
                         </h4>
                       </div>

@@ -1,4 +1,5 @@
 import {
+  agricultural_loan,
   analysis,
   bmz,
   businessloan,
@@ -6,6 +7,7 @@ import {
   caid,
   cordaid,
   eu,
+  fastfast_loan,
   finmgt,
   grouploan,
   groupsavings,
@@ -24,6 +26,7 @@ import {
   rapid,
   ria,
   salary,
+  salary_loan,
   sendserial,
   strategy,
   teratech,
@@ -57,6 +60,7 @@ export const navLinks: Menus[] = [
         id: "1",
         content: `Secure your future with our flexible personal and group savings plans`,
         subtitle: "Personal and Group Savings",
+        subheading: "Savings",
         img: salary,
         mainImage: ladysaving,
         description: `At Kakebo Financial Services, we offer a variety of savings plans designed to help you secure your financial future. Whether you're saving for a rainy day, a major life event, or simply looking to build a solid financial foundation, our savings solutions are tailored to meet your needs. Start saving today with any of our Credit Unions across Sierra Leone.`,
@@ -118,10 +122,15 @@ export const navLinks: Menus[] = [
           },
         ],
       },
+     
       {
         id: "2",
         content: `Access personal and business loans tailored to your financial needs`,
+
+
+        buttonText: "Loan application",
         title: "Loans",
+        subheading: "Loans Service",
         subtitle: "Personal and Business Loans",
         img: pay,
         mainImage: loan,
@@ -149,6 +158,24 @@ export const navLinks: Menus[] = [
             id: "3",
             img: grouploan,
             title: "Group Loans",
+            content: "",
+          },
+          {
+            id: "4",
+            img: agricultural_loan,
+            title: "Agricultural loan",
+            content: "",
+          },
+          {
+            id: "5",
+            img: fastfast_loan,
+            title: "Fast fast Loan",
+            content: "",
+          },
+          {
+            id: "6",
+            img: salary_loan,
+            title: "Salary Loan",
             content: "",
           },
         ],
@@ -181,6 +208,7 @@ export const navLinks: Menus[] = [
         content: `Experience seamless mobile money and international money transfers and transactions`,
         title: "Mobile Transfer",
         subtitle: "Mobile and International Money Transfer",
+        subheading: "Mobile Money Transfer",
         img: money,
         mainImage: moneyhand,
 
@@ -265,7 +293,9 @@ export const navLinks: Menus[] = [
         id: "4",
         content: `Enhance your business skills with our comprehensive training services for MSMEs`,
         subtitle: "Business Training Services for MSMEs",
+        buttonText: "Business Training Request Form",
         title: "Business Training Services",
+        subheading: "Business Training Services",
         img: analysis,
         mainImage: meeting,
         notes:
@@ -296,6 +326,14 @@ export const navLinks: Menus[] = [
             content:
               "Develop effective marketing strategies to promote your business and attract customers.",
           },
+          {
+            id: "4",
+            img: strategy,
+            title: "Business Proposal Development",
+            content:
+              "",
+          },
+          
         ],
 
         reason: [
@@ -318,6 +356,13 @@ export const navLinks: Menus[] = [
             title: "Supportive Community",
             content:
               "Join a network of fellow entrepreneurs and business owners, fostering collaboration and support.",
+          },
+          {
+            id: "4",
+            title: "Business Proposal Development",
+            content:
+            "We offer targeted, hands-on training to help you craft business proposals that are both strategic and impactful.",
+             
           },
         ],
       },
@@ -455,7 +500,9 @@ export const contact: ContactModel = {
   email: "info@kakebofinancialservices.com",
   address: "4 Reservation Road, Kenema, Sierra Leone",
   phone: "+232 76332287",
+  whatsappLink:"+23276332287",
   phone2: "+232 78 206853",
+  whatsappLink2:"+232 78 206853",
 };
 
 export const donors: Menus[] = [
@@ -741,52 +788,73 @@ export const interestRates: InterestType[] = [
   {
     period: "1st Month",
     principal: "1,000",
+    USDPrincipal:"0.04",
     interest: "1,000",
     total: "1,180",
+    USDTotal: "0.047",
     balance: "5,000",
+    USDBalance: "0.2",
   },
   {
     period: "2nd Month",
     principal: "1,000",
+    USDPrincipal:"0.04",
     interest: "150",
     total: "1,150",
+    USDTotal:"0.046",
     balance: "4,000",
+    USDBalance: "0.16",
   },
 
   {
     period: "3rd Month",
     principal: "1,000",
+    USDPrincipal:"0.04",
     interest: "120",
     total: "1,120",
+    USDTotal: "0.045",
     balance: "3,000",
+    USDBalance: "0.12",
   },
   {
     period: "4th Month",
     principal: "1,000",
+    USDPrincipal:"0.04",
     interest: "90",
     total: "1,090",
+    USDTotal: "0.043",
     balance: "2,000",
+    USDBalance: "0.08"
   },
   {
     period: "5th Month",
     principal: "1,000",
+    USDPrincipal:"0.04",
     interest: "60",
     total: "1,060",
+    USDTotal: "0.042",
     balance: "1,000",
+    USDBalance: "0.04"
   },
   {
     period: "6th Month",
     principal: "1,000",
+    USDPrincipal:"0.04",
     interest: "30",
     total: "1,030",
+    USDTotal: "0.041",
     balance: "",
+    USDBalance: "",
   },
   {
     period: "Total ",
     principal: "6,000",
+    USDPrincipal:"0.24",
     interest: "630",
     total: "6,630",
+    USDTotal: "0.27",
     balance: "",
+    USDBalance: "",
   },
 ];
 

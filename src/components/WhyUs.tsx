@@ -21,12 +21,13 @@ const WhyUs = (props: Props) => {
           className={`font-poppins md:p-0  text-justify  mt-5 md:mt-0 lg:mt-5 leading-8`}
         >
           We offer financial services to meet the unique financial needs of
-          persons, savings groups, businesses, and communities in Sierra Leone.
-          Our community-centric approach ensures we offer accessible and
-          impactful financial services, fostering trustworthy relationships
-          through transparency and reliability. By adopting innovative financial
-          solutions, we drive client growth and success, while empowering
-          households to save for future needs.
+          persons, savings groups, businesses, other private, publc institutions
+          and communities in Sierra Leone. Our community-centric approach
+          ensures we offer accessible and impactful financial services,
+          fostering trustworthy relationships through transparency and
+          reliability. By adopting innovative financial solutions, we drive
+          client growth and success, while empowering households to save for
+          future needs.
         </p>
 
         {/* reasons section */}

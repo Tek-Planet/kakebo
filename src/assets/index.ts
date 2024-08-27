@@ -65,3 +65,8 @@ export { default as strategy } from "./strategy.png";
 export { default as finmgt } from "./finmgt.jpeg";
 export { default as orange } from "./orange.png";
 export { default as naccua } from "./NACCUA.jpg";
+export { default as whatsappwhite } from "./whatsappwhite.png";
+export { default as fastfast_loan } from "./fastfast.png";
+export { default as agricultural_loan } from "./agricultural_loan.png";
+export { default as salary_loan } from "./salary_loan.png";
+
