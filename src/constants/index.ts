@@ -388,6 +388,7 @@ export const navLinks: Menus[] = [
         content:
           "Receive expert guidance and support with Kakebo Consultancy Services today.",
         title: "Consultancy Work",
+        subheading: "Consultancy Work",
         subtitle: "Consultancy Work for Projects",
         img: consultancyicon,
         mainImage: consultancyimage,
