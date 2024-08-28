@@ -41,6 +41,12 @@ import {
   whh,
   visa,
   express,
+  loan_service,
+  savings,
+  mobile_transfer,
+  business_training,
+  consultant,
+  kakebo3,
 } from "../assets";
 import {
   ContactModel,
@@ -71,7 +77,7 @@ export const navLinks: Menus[] = [
         subtitle: "Personal and Group Savings",
         subheading: "Savings",
         img: salary,
-        mainImage: ladysaving,
+        mainImage: savings,
         description: `At Kakebo Financial Services, we offer a variety of savings plans designed to help you secure your financial future. Whether you're saving for a rainy day, a major life event, or simply looking to build a solid financial foundation, our savings solutions are tailored to meet your needs. Start saving today with any of our Credit Unions across Sierra Leone.`,
         title: "Savings",
         notes:
@@ -141,7 +147,7 @@ export const navLinks: Menus[] = [
         subheading: "Loans Service",
         subtitle: "Personal and Business Loans",
         img: pay,
-        mainImage: loan,
+        mainImage: loan_service,
         description:
           "Kakebo Financial Services offers a range of loan products designed to support both personal and business financial needs. Our loan services are structured to provide the necessary funds to help you achieve your goals, whether it's for personal development or business expansion. Apply for a loan today at any of our Credit Unions across Sierra Leone.",
         notes:
@@ -218,7 +224,7 @@ export const navLinks: Menus[] = [
         subtitle: "Mobile and International Money Transfer",
         subheading: "Mobile Money Transfer",
         img: money,
-        mainImage: moneyhand,
+        mainImage: mobile_transfer,
 
         description:
           "At Kakebo Financial Services, we offer efficient and reliable money transfer services that make sending and receiving money easy and convenient. Whether you need to transfer money locally or internationally, our services ensure your funds reach their destination quickly and securely. Send more today at any of our Credit Unions across Sierra Leone.",
@@ -317,7 +323,7 @@ export const navLinks: Menus[] = [
         title: "Business Training Services",
         subheading: "Business Training Services",
         img: analysis,
-        mainImage: meeting,
+        mainImage: business_training,
         notes:
           "Enhance your business acumen and drive your enterprise towards success with Kakebo Business Training Services. Enroll in our programs today and take your business to new heights.",
         description:
@@ -391,7 +397,7 @@ export const navLinks: Menus[] = [
         subheading: "Consultancy Work",
         subtitle: "Consultancy Work for Projects",
         img: consultancyicon,
-        mainImage: consultancyimage,
+        mainImage:kakebo3,
 
         description:
           "At Kakebo Consultancy Services, we offer comprehensive and professional consultancy services that cater to a wide range of needs. Whether you require a baseline survey, project evaluation/end line survey, financial auditing, organizational capacity building, software development & training, or mobile app development, our services ensure you receive expert guidance and support. Partner with us today to achieve your goals efficiently and effectively.",

@@ -1,4 +1,4 @@
-import { about, hero } from "../assets";
+import { kakebo2 } from "../assets";
 import styles, { layout } from "../style";
 import { GeneralListModel } from "../types";
 import Button from "./Button";
@@ -47,7 +47,7 @@ const AboutUs = (props: Props) => {
       >
         <div>
           <img
-            src={image ? image : hero}
+            src={image ? image : kakebo2}
             alt={title}
             className="h-full object-contain  "
           />

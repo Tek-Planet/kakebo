@@ -10,7 +10,7 @@ import {
   OurClients,
   WhyUs,
 } from "../components";
-import { hero } from "../assets";
+import { aboutUs, hero } from "../assets";
 import { donors, staffs } from "../constants";
 
 const AboutUsPage = () => {
@@ -27,7 +27,7 @@ const AboutUsPage = () => {
       <div className={` ${styles.flexStart}`}>
         <div className={`${styles.boxWidth} `}>
           <AboutCarousal
-            image={hero}
+            image={aboutUs}
             title="About Us"
             content="Our services range from drilling and blasting consumable products to providing equipment and logistics services in the mining industry. We are committed to offering industry-leading product quality, innovation and excellent customer service."
           />

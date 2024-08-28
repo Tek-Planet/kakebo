@@ -78,3 +78,16 @@ export { default as agricultural_loan } from "./agricultural_loan.png";
 export { default as salary_loan } from "./salary_loan.png";
 export { default as visa } from "./visa.png";
 export { default as express } from "./express.png";
+export { default as kakebo1 } from "./kakebo1.jpg";
+export { default as kakebo2 } from "./kakebo2.jpg";
+export { default as loan_service } from "./loan_service.jpg";
+export { default as kakebo3 } from "./kakebo3.jpg";
+export { default as mobile_transfer } from "./mobile_transfer.jpg";
+export { default as business_training } from "./business.jpg";
+export { default as consultant } from "./consultant.jpg";
+export { default as savings } from "./savings.jpg";
+export { default as kakebo } from "./kakebo.jpg";
+export { default as aboutUs } from "./about-us.jpg";
+
+
+

@@ -8,7 +8,7 @@ import {
   MobileTransferSlider,
   ServiceCard,
 } from "../components";
-import { hero, rocket, why } from "../assets";
+import { kakebo1, rocket, why } from "../assets";
 import { useLocation } from "react-router-dom";
 import { GeneralListModel } from "../types";
 import { interestRates } from "../constants";
@@ -33,7 +33,7 @@ const SavingsPage = () => {
       <div className={` ${styles.flexStart}  `}>
         <div className={`${styles.boxWidth} `}>
           <AboutCarousal
-            image={hero}
+            image={kakebo1}
             title={item?.title}
             content={item.content}
             buttonText={item?.buttonText}
