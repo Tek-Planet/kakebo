@@ -3,7 +3,7 @@ import styles from "../style";
 import { motion } from "framer-motion";
 
 import { AboutCarousal, AboutUs, LogoSlider, Membership } from "../components";
-import { hero, locationblack, phoneblack } from "../assets";
+import { locationblack, main, phoneblack } from "../assets";
 import { useLocation } from "react-router-dom";
 import { donors, faq, membership, staffs } from "../constants";
 
@@ -33,7 +33,7 @@ const ServicesPage = () => {
       <div className={` ${styles.flexStart}  `}>
         <div className={`${styles.boxWidth} `}>
           <AboutCarousal
-            image={hero}
+            image={main}
             title={item?.title}
             content={item.content}
           />

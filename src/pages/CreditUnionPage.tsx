@@ -4,14 +4,14 @@ import { motion } from "framer-motion";
 
 import { AboutCarousal, EquipmentCard } from "../components";
 import {
-  hero,
   info,
+  kakebo1,
   locationblack,
   mailblack,
   person,
   phoneblack,
 } from "../assets";
-import { faq, interestRates, navLinks, staffs } from "../constants";
+import { faq, navLinks, staffs } from "../constants";
 import { useNavigate } from "react-router-dom";
 
 const CreditUnionPage = () => {
@@ -30,7 +30,7 @@ const CreditUnionPage = () => {
       <div className={` ${styles.flexStart}`}>
         <div className={`${styles.boxWidth} `}>
           <AboutCarousal
-            image={hero}
+            image={kakebo1}
             title={"Our Credit Unions"}
             content={
               "Learn more about the Cooperative Credit Unions that are under KAKEBO management and how they are helping impact the livelihoods and financial security of thousands of households and changing the business landscapes in many communities, towns and cities across Sierra Leone."

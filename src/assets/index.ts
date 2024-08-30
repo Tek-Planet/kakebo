@@ -88,6 +88,7 @@ export { default as consultant } from "./consultant.jpg";
 export { default as savings } from "./savings.jpg";
 export { default as kakebo } from "./kakebo.jpg";
 export { default as aboutUs } from "./about-us.jpg";
+export { default as main } from "./main.jpg";
 
 
 

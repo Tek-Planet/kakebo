@@ -3,7 +3,7 @@ import styles from "../style";
 import { motion } from "framer-motion";
 
 import { AboutCarousal, Contact, MapContainer } from "../components";
-import { hero } from "../assets";
+import { kakebo1 } from "../assets";
 
 const ContactPage = () => {
   return (
@@ -19,7 +19,7 @@ const ContactPage = () => {
       <div className={` ${styles.flexStart}`}>
         <div className={`${styles.boxWidth} `}>
           <AboutCarousal
-            image={hero}
+            image={kakebo1}
             title={"Contact Us"}
             content={
               "Interested in any of our services and want to know more?. Simply fill in the form and will get back to you."

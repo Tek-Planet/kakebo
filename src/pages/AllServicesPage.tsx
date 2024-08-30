@@ -2,8 +2,8 @@ import styles from "../style";
 
 import { motion } from "framer-motion";
 
-import { AboutCarousal, EquipmentCard, ServiceCard } from "../components";
-import { hero } from "../assets";
+import { AboutCarousal, ServiceCard } from "../components";
+import { kakebo1 } from "../assets";
 import { navLinks } from "../constants";
 import { useNavigate } from "react-router-dom";
 
@@ -23,7 +23,7 @@ const AllServicesPage = () => {
       <div className={` ${styles.flexStart}`}>
         <div className={`${styles.boxWidth} `}>
           <AboutCarousal
-            image={hero}
+            image={kakebo1}
             title={"Our Services"}
             content={
               "We provide a wide range of financial services to meet your needs."
