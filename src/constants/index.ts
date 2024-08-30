@@ -7,7 +7,6 @@ import {
   businesssavings,
   caid,
   consultancyicon,
-  consultancyimage,
   cordaid,
   endsurvey,
   eu,
@@ -18,13 +17,9 @@ import {
   groupsavings,
   irishaid,
   kidssavings,
-  ladysaving,
-  loan,
   logo,
-  meeting,
   money,
   moneygram,
-  moneyhand,
   naccua,
   orange,
   orgcap,
@@ -45,7 +40,6 @@ import {
   savings,
   mobile_transfer,
   business_training,
-  consultant,
   kakebo3,
 } from "../assets";
 import {
@@ -708,10 +702,15 @@ export const faq: FAQType[] = [
       {
         title: "Kono Cooperative Credit Union",
         address: "64 Bona Street, Koidu City.",
+        unionId: "6",
+
+
+
+
         contact: [
           {
             name: "Betty Simbo Kamara",
-            phone: "tel:078 503513",
+            phone: "078 503513",
           },
         ],
       },
@@ -1276,47 +1275,48 @@ export const staffs: ContactModel[] = [
   //   unionId: "4",
   //   phone: "078 493605",
   // },
-  {
-    email: "Kono Cooperative Credit Union",
-    name: "Betty Simbo Kamara",
-    position: "Manager",
-    unionId: "5",
-    phone: "078 503513, 099 202794",
-  },
-  {
-    email: "Kono Cooperative Credit Union",
-    name: "Swaray A Kaingbaja",
-    position: "Loan Officer",
-    unionId: "5",
-    phone: "076 601445",
-  },
-  // {
+    // {
   //   email: "Luawa Cooperative Credit Union",
   //   name: "Festus Bockarie",
   //   position: "Manager",
-  //   unionId: "6",
+  //   unionId: "5",
   //   phone: "079 661761",
   // },
   // {
   //   email: "Luawa Cooperative Credit Union",
   //   name: "Augusta Adu",
   //   position: "Account Officer",
-  //   unionId: "6",
+  //   unionId: "5",
   //   phone: "076 143535",
   // },
   // {
   //   email: "Luawa Cooperative Credit Union",
   //   name: "Soadatu Vandi",
   //   position: "Loan Officer",
-  //   unionId: "6",
+  //   unionId: "5",
   //   phone: "076 216525",
   // },
   // {
   //   email: "Luawa Cooperative Credit Union",
   //   name: "Augustine Feika",
   //   position: "Security Gard",
-  //   unionId: "6",
+  //   unionId: "5",
   //   phone: "073 458049",
+  // },
+  {
+    email: "Kono Cooperative Credit Union",
+    name: "Betty Simbo Kamara",
+    position: "Manager",
+    unionId: "6",
+    phone: "078 503513, 099 202794",
+  },
+
+  // {
+  //   email: "Kono Cooperative Credit Union",
+  //   name: "Swaray A Kaingbaja",
+  //   position: "Loan Officer",
+  //   unionId: "6",
+  //   phone: "076 601445",
   // },
   {
     email: "Mongo Cooperative Credit Union",

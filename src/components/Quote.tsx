@@ -1,9 +1,8 @@
 import { useState } from "react";
 import { CustomTextInput } from ".";
-import { about, logo } from "../assets";
+import { logo } from "../assets";
 import styles, { layout } from "../style";
 import Button from "./Button";
-import { motion } from "framer-motion";
 
 const Quote = () => {
   const [email, setEmail] = useState<string>("");
