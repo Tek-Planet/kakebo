@@ -168,20 +168,20 @@ const AboutUs = (props: Props) => {
             <p
               className={`font-poppins md:p-0 text-justify   md:mt-0  leading-8`}
             >
-              Since 2009, SEND Sierra Leone has established 10 credit unions,
+              Since 2020, SEND Sierra Leone has established 6 credit unions,
               providing additional financial services to individual members and
-              Village Savings and Loans Associations (VSLAs). This initiative
-              has empowered thousands of women, making them more financially
-              literate, self-reliant, and vocal in their communities. These
-              credit unions have significantly increased income-earning
-              opportunities, access to affordable loans, and addressed social
-              challenges such as gender inequality and decision-making in
-              households and communities. As of May 2024, the 10 credit unions
-              supported by SEND have over 7,070 individual members and 1,366
-              VSLA groups, representing more than 40,000 members. These credit
-              unions, located in Kailahun, Kenema, Kono, Bonthe, and Falaba
-              districts, have total assets valued at SLE 59,750,000
-              (approximately 2.5 million USD).
+              Village Savings and Loans Association (VSLAs). This initiative has
+              empowered thousands of women, making them financially literate,
+              self reliant, and vocal in their communities. These credit unions
+              have significantly increased income-earning opportunities and
+              access to affordable loans, addressing social challenges such as
+              gender inequality an decision-making in households and
+              communities. As of June 2026, the 6 credit unions supported by
+              SEND/SL and its partners, has over 5,000 individual memebers and
+              over 1,000 VSLA groups, representing more than 30,000 members.
+              These credit unions in Kenema, Kono, Bonthe and Falaba Districts
+              have total assets valued at SLE 39,680,000 (approximately 1.6
+              million USD).
             </p>
           </div>
         )}

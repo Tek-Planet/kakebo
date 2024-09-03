@@ -1178,6 +1178,13 @@ export const staffs: ContactModel[] = [
   },
   {
     email: "KAKEBO Secretariat",
+    name: "Joseph Ayamga",
+    position: "",
+    unionId: "0",
+    phone: "",
+  },
+  {
+    email: "KAKEBO Secretariat",
     name: "Alimatu Barrie",
     position: "Relations Officer",
     unionId: "0",

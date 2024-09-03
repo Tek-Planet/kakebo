@@ -49,12 +49,11 @@ const Footer = () => {
             <img src={whatsappwhite} alt="menu" className="h-6 flex w-6 " />
 
             <a href={`https://wa.me/${contact.whatsappLink}`}>
-              <h4 className={textStyle}>{contact.phone}</h4>
+              <h4 className={textStyle}>{contact.phone},</h4>
             </a>
-
-            {/* <a href={`tel:+${contact.whatsappLink2}`}>
+            <a href={`https://wa.me/${contact.whatsappLink2}`}>
               <h4 className={textStyle}>{contact.phone2}</h4>
-            </a> */}
+            </a>
           </div>
           <div className="ml-2">
             <h4 className="font-poppins font-semibold text-white text-lg">

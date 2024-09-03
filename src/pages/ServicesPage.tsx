@@ -83,7 +83,7 @@ const ServicesPage = () => {
 
             {/* staffs */}
             {staffs?.map((staff, index) => {
-              if (staff?.unionId === item.id)
+              if (staff?.unionId === item.vid)
                 return (
                   <div
                     key={index.toString()}
